@@ -1,55 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Android Verification</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ganhe Prêmios Hoje</title>
+
 <style>
 body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
-  text-align: center;
-  padding: 40px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f9b0f, #1e7d32);
+    color: #ffffff;
+    text-align: center;
 }
-.box {
-  background: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  max-width: 400px;
-  margin: auto;
+
+.container {
+    max-width: 420px;
+    margin: auto;
+    padding: 25px;
 }
-button {
-  background: #28a745;
-  color: white;
-  padding: 15px 25px;
-  border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  cursor: pointer;
+
+.card {
+    background: #0b5f2a;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
 }
-button:hover {
-  background: #218838;
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
 }
-.small {
-  font-size: 12px;
-  color: #777;
-  margin-top: 15px;
+
+.highlight {
+    color: #ffeb3b;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.icons {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.badge {
+    background: #ff5722;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.cta {
+    margin-top: 25px;
+}
+
+.cta a {
+    display: block;
+    background: #ffeb3b;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 50px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255,235,59, 0.7); }
+    70% { box-shadow: 0 0 0 20px rgba(255,235,59, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255,235,59, 0); }
+}
+
+.footer {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 20px;
 }
 </style>
 </head>
+
 <body>
 
-<div class="box">
-  <h2>Android Verification Required</h2>
-  <p>To continue, please complete a quick verification step.</p>
+<div class="container">
+    <div class="card">
 
-  <button onclick="window.location.href='https://lockedapp.org/sl/73jm0'">
-    Continue
-  </button>
+        <div class="badge">🎁 Promoção Ativa</div>
 
-  <div class="small">
-    Secure • Takes less than 1 minute
-  </div>
+        <h1>Ganhe <span class="highlight">Prêmios Hoje</span></h1>
+
+        <div class="icons">🎉 💰 📱</div>
+
+        <p>
+            Usuários <span class="highlight">Android no Brasil</span> estão participando de
+            promoções exclusivas e recebendo recompensas agora.
+        </p>
+
+        <p>
+            ⏳ Oferta disponível por tempo limitado.<br>
+            Verifique se você é elegível.
+        </p>
+
+        <div class="cta">
+            <!-- REMPLACE LE LIEN CI-DESSOUS PAR TON SMARTLINK OGADS -->
+            <a href="https://applocked.org/sl/73jm0" target="_blank">
+                🔥 Verificar Agora
+            </a>
+        </div>
+
+        <div class="footer">
+            * Participação sujeita à elegibilidade. Android apenas.
+        </div>
+
+    </div>
 </div>
 
 </body>
