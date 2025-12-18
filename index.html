@@ -1,125 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ganhe Prêmios Hoje</title>
-
-<style>
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #0f9b0f, #1e7d32);
-    color: #ffffff;
-    text-align: center;
-}
-
-.container {
-    max-width: 420px;
-    margin: auto;
-    padding: 25px;
-}
-
-.card {
-    background: #0b5f2a;
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.3);
-}
-
-h1 {
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-.highlight {
-    color: #ffeb3b;
-    font-weight: bold;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.icons {
-    font-size: 40px;
-    margin: 15px 0;
-}
-
-.badge {
-    background: #ff5722;
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.cta {
-    margin-top: 25px;
-}
-
-.cta a {
-    display: block;
-    background: #ffeb3b;
-    color: #000;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 16px;
-    border-radius: 50px;
-    animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(255,235,59, 0.7); }
-    70% { box-shadow: 0 0 0 20px rgba(255,235,59, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(255,235,59, 0); }
-}
-
-.footer {
-    font-size: 12px;
-    opacity: 0.8;
-    margin-top: 20px;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promocja – Weź Udział</title>
+  <meta name="description" content="Weź udział w promocji i sprawdź dostępne nagrody. Rejestracja dla użytkowników Android." />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: #ffffff;
+    }
+    .container {
+      max-width: 420px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: #22c55e;
+      color: #022c22;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 24px;
+      line-height: 1.3;
+      margin: 12px 0 16px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      opacity: 0.9;
+      margin-bottom: 24px;
+    }
+    .steps {
+      background: rgba(255,255,255,0.05);
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 26px;
+      text-align: left;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    .step span {
+      background: #38bdf8;
+      color: #020617;
+      font-weight: 700;
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 13px;
+    }
+    .cta {
+      display: inline-block;
+      width: 100%;
+      padding: 16px;
+      background: #22c55e;
+      color: #022c22;
+      font-size: 17px;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 14px;
+      animation: pulse 1.4s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34,197,94,0.6); }
+      70% { transform: scale(1.03); box-shadow: 0 0 0 14px rgba(34,197,94,0); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+    }
+    .note {
+      margin-top: 18px;
+      font-size: 12px;
+      opacity: 0.65;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="container">
+    <div class="badge">Promocja dostępna</div>
+    <h1>Weź udział w losowaniu nagród</h1>
+    <p>Zarejestruj się w promocji i sprawdź, czy możesz wziąć udział w aktualnym losowaniu. Dostępne dla użytkowników Android.</p>
 
-<div class="container">
-    <div class="card">
-
-        <div class="badge">🎁 Promoção Ativa</div>
-
-        <h1>Ganhe <span class="highlight">Prêmios Hoje</span></h1>
-
-        <div class="icons">🎉 💰 📱</div>
-
-        <p>
-            Usuários <span class="highlight">Android no Brasil</span> estão participando de
-            promoções exclusivas e recebendo recompensas agora.
-        </p>
-
-        <p>
-            ⏳ Oferta disponível por tempo limitado.<br>
-            Verifique se você é elegível.
-        </p>
-
-        <div class="cta">
-            <!-- REMPLACE LE LIEN CI-DESSOUS PAR TON SMARTLINK OGADS -->
-            <a href="https://applocked.org/sl/73jm0" target="_blank">
-                🔥 Verificar Agora
-            </a>
-        </div>
-
-        <div class="footer">
-            * Participação sujeita à elegibilidade. Android apenas.
-        </div>
-
+    <div class="steps">
+      <div class="step"><span>1</span> Otwórz formularz rejestracyjny</div>
+      <div class="step"><span>2</span> Uzupełnij wymagane dane</div>
+      <div class="step"><span>3</span> Potwierdź udział w promocji</div>
     </div>
-</div>
 
+    <!-- REMPLACE LE LIEN CI-DESSOUS PAR TON LIEN OGADS / CPALEAD -->
+    <a href="https://lockedapp.org/sl/lj5d9" class="cta">Weź Udział Teraz</a>
+
+    <div class="note">
+      * Udział nie gwarantuje wygranej. Promocja dostępna dla pełnoletnich użytkowników.
+    </div>
+  </div>
 </body>
 </html>
